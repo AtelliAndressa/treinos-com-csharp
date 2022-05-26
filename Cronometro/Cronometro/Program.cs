@@ -39,7 +39,24 @@ namespace Cronometro
                 System.Environment.Exit(0);
             }
 
-            Start(time * multiplier);
+            PreStart(time * multiplier);
+        }
+        
+        /// <summary>
+        /// Essa função faz uma inicialização para chamar o start
+        /// </summary>
+        /// <param name="time"></param>
+        static void PreStart(int time)
+        {
+            Console.Clear();
+            Console.WriteLine("Ready...");
+            Thread.Sleep(1000);
+            Console.WriteLine("Set...");
+            Thread.Sleep(1000);
+            Console.WriteLine("Go...");
+            Thread.Sleep(1500);
+
+            Start(time);
         }
 
         /// <summary>
