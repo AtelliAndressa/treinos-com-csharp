@@ -1,0 +1,15 @@
+C:\Users\Atelli\projetos-em-cSharp\TextEditor1\TextEditor1\bin\Debug\net6.0\TextEditor1.exe
+C:\Users\Atelli\projetos-em-cSharp\TextEditor1\TextEditor1\bin\Debug\net6.0\TextEditor1.deps.json
+C:\Users\Atelli\projetos-em-cSharp\TextEditor1\TextEditor1\bin\Debug\net6.0\TextEditor1.runtimeconfig.json
+C:\Users\Atelli\projetos-em-cSharp\TextEditor1\TextEditor1\bin\Debug\net6.0\TextEditor1.dll
+C:\Users\Atelli\projetos-em-cSharp\TextEditor1\TextEditor1\bin\Debug\net6.0\TextEditor1.pdb
+C:\Users\Atelli\projetos-em-cSharp\TextEditor1\TextEditor1\obj\Debug\net6.0\TextEditor1.csproj.AssemblyReference.cache
+C:\Users\Atelli\projetos-em-cSharp\TextEditor1\TextEditor1\obj\Debug\net6.0\TextEditor1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Atelli\projetos-em-cSharp\TextEditor1\TextEditor1\obj\Debug\net6.0\TextEditor1.AssemblyInfoInputs.cache
+C:\Users\Atelli\projetos-em-cSharp\TextEditor1\TextEditor1\obj\Debug\net6.0\TextEditor1.AssemblyInfo.cs
+C:\Users\Atelli\projetos-em-cSharp\TextEditor1\TextEditor1\obj\Debug\net6.0\TextEditor1.csproj.CoreCompileInputs.cache
+C:\Users\Atelli\projetos-em-cSharp\TextEditor1\TextEditor1\obj\Debug\net6.0\TextEditor1.dll
+C:\Users\Atelli\projetos-em-cSharp\TextEditor1\TextEditor1\obj\Debug\net6.0\refint\TextEditor1.dll
+C:\Users\Atelli\projetos-em-cSharp\TextEditor1\TextEditor1\obj\Debug\net6.0\TextEditor1.pdb
+C:\Users\Atelli\projetos-em-cSharp\TextEditor1\TextEditor1\obj\Debug\net6.0\TextEditor1.genruntimeconfig.cache
+C:\Users\Atelli\projetos-em-cSharp\TextEditor1\TextEditor1\obj\Debug\net6.0\ref\TextEditor1.dll
