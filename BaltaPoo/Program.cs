@@ -19,6 +19,8 @@ namespace BaltaPoo
                 Console.WriteLine(article.Title);
                 Console.WriteLine(article.Url);
             }
+
+            var course = new Course("Fundamentos OOP", "fundamentos-oop");
         }
     }
 }
