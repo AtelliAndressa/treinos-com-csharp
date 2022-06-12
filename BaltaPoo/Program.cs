@@ -31,9 +31,9 @@ namespace BaltaPoo
             
             var careers = new List<Career>();
             var careerDotNet = new Career("Especialista em .Net", "especialista-dotNet");
-            var careerItem1 = new CareerItem(1, "comece aqui", "", null);
-            var careerItem2 = new CareerItem(1, "csharp", "", null);
-            var careerItem3 = new CareerItem(1, "poo", "", null);
+            var careerItem1 = new CareerItem(1, "comece aqui", "", courseAspNet);
+            var careerItem2 = new CareerItem(1, "csharp", "", courseCsharp);
+            var careerItem3 = new CareerItem(1, "poo", "", courseOop);
             careerDotNet.Items.Add(careerItem1);
             careerDotNet.Items.Add(careerItem2);
             careerDotNet.Items.Add(careerItem3);
@@ -44,6 +44,7 @@ namespace BaltaPoo
                 foreach (var item in career.Items.OrderBy(x => x.Order))
                 {
                     Console.WriteLine($"{item.Order} - {item.Title}");
+                    Console.WriteLine(item.Course.Title);
                 }
             }
         }
