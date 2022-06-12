@@ -1,6 +1,7 @@
 ﻿using BaltaPoo.ContentContext;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace BaltaPoo
 {
@@ -29,10 +30,22 @@ namespace BaltaPoo
             courses.Add(courseAspNet);
             
             var careers = new List<Career>();
-            var career = new Career("Especialista em .Net", "especialista-dotNet");
-            var careerItem = new CareerItem(1, "comece agora", "", null);
-            career.Items.Add(careerItem);
-            careers.Add(career);
+            var careerDotNet = new Career("Especialista em .Net", "especialista-dotNet");
+            var careerItem1 = new CareerItem(1, "comece aqui", "", null);
+            var careerItem2 = new CareerItem(1, "csharp", "", null);
+            var careerItem3 = new CareerItem(1, "poo", "", null);
+            careerDotNet.Items.Add(careerItem1);
+            careerDotNet.Items.Add(careerItem2);
+            careerDotNet.Items.Add(careerItem3);
+            careers.Add(careerDotNet);
+
+            foreach (var career in careers){
+                Console.WriteLine(career.Title);
+                foreach (var item in career.Items.OrderBy(x => x.Order))
+                {
+                    Console.WriteLine($"{item.Order} - {item.Title}");
+                }
+            }
         }
     }
 }

@@ -20,7 +20,7 @@ namespace BaltaPoo.ContentContext
             Order = order;
             Title = title;
             Description = description;
-            Course = course;
+            Course = course ?? throw new Exception("o curso não pode ser nulo");
         }
 
         public int Order { get; set; }
