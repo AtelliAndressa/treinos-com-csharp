@@ -20,7 +20,19 @@ namespace BaltaPoo
                 Console.WriteLine(article.Url);
             }
 
-            var course = new Course("Fundamentos OOP", "fundamentos-oop");
+            var courses = new List<Course>();
+            var courseOop = new Course("Fundamentos OOP", "fundamentos-oop");
+            var courseCsharp = new Course("Fundamentos csharp", "fundamentos-csharp");
+            var courseAspNet = new Course("Fundamentos Asp.net", "fundamentos-asp.net");
+            courses.Add(courseOop);
+            courses.Add(courseCsharp);
+            courses.Add(courseAspNet);
+            
+            var careers = new List<Career>();
+            var career = new Career("Especialista em .Net", "especialista-dotNet");
+            var careerItem = new CareerItem(1, "comece agora", "", null);
+            career.Items.Add(careerItem);
+            careers.Add(career);
         }
     }
 }
