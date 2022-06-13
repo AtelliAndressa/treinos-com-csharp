@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BaltaPoo.NotificationContext;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,23 +7,26 @@ using System.Threading.Tasks;
 
 namespace BaltaPoo.ContentContext
 {
-    public class CareerItem
+    public class CareerItem : Base
     {
         /// <summary>
         /// Construtor
         /// </summary>
-        /// <param name="order"></param>
-        /// <param name="title"></param>
-        /// <param name="description"></param>
-        /// <param name="course"></param>
         public CareerItem(int order, string title, string description, Course course)
         {
+            if(course == null)
+            {
+                AddNotification(new Notification("Course", "curso inválido"));
+            }
+
             Order = order;
             Title = title;
             Description = description;
-            Course = course ?? throw new Exception("o curso não pode ser nulo");
+            Course = course;
+            //Course = course ?? throw new Exception("curso inválido");
         }
 
+        //Propriedades:
         public int Order { get; set; }
 
         public string Title { get; set; }

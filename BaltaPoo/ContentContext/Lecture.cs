@@ -6,7 +6,7 @@ namespace BaltaPoo.ContentContext
     /// <summary>
     /// essa classe refê-se a aula
     /// </summary>
-    public class Lecture
+    public class Lecture : Base
     {
         public int Order { get; set; }
 

@@ -3,7 +3,7 @@
 
 namespace BaltaPoo.ContentContext
 {
-    public class Module
+    public class Module : Base
     {
         /// <summary>
         /// inicializando o objeto no construtor

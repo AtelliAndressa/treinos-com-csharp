@@ -1,3 +1,5 @@
+using BaltaPoo.NotificationContext;
+
 namespace BaltaPoo.ContentContext 
 {
     /// <summary>
@@ -5,6 +7,7 @@ namespace BaltaPoo.ContentContext
     /// </summary>
     public class Article : Content 
     {
+
         /// <summary>
         /// Construtor usando herança.
         /// </summary>

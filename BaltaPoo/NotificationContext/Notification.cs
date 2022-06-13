@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace BaltaPoo.NotificationContext
 {
-    public class Notification
+    /// <summary>
+    /// O Sealed não permite que a classe seja estendida, mantendo um padrão.
+    /// </summary>
+    public sealed class Notification
     {
         public Notification()
         {
