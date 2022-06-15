@@ -2,7 +2,7 @@
 using System;
 
 
-namespace BaltaPoo.ContentContext
+namespace BaltaPoo.SharedContext
 {
     public abstract class Base : Notifiable
     {

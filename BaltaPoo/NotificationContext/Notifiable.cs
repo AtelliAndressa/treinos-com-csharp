@@ -9,6 +9,11 @@ namespace BaltaPoo.NotificationContext
     public abstract class Notifiable
     {
         public List<Notification> Notifications { get; set; }
+        //inicializando a lista para não gerar erro
+        public Notifiable()
+        {
+            Notifications = new List<Notification>();
+        }
 
         /// <summary>
         /// Método que recebe uma notificação.

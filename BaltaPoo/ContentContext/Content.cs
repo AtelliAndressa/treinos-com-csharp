@@ -1,5 +1,7 @@
+using BaltaPoo.SharedContext;
 
-namespace BaltaPoo.ContentContext {
+namespace BaltaPoo.ContentContext
+{
     /// <summary>
     /// Essas propriedades serão herdadas pelas outras classes
     /// </summary>

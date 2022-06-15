@@ -1,5 +1,6 @@
 ﻿
 using BaltaPoo.ContentContext.Enums;
+using BaltaPoo.SharedContext;
 
 namespace BaltaPoo.ContentContext
 {
